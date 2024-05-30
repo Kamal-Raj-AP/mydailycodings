@@ -1,0 +1,23 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code o
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner oc=new Scanner(System.in);
+        
+        
+        System.out.println("enter the number one :");
+        int gett=oc.nextInt();
+        
+        int cal;
+        if(gett%2==0)
+        {
+            System.out.println("answer is even ");
+        }
+    else
+    {
+         System.out.println("answer is odd ");
+       
+    }
+    }
+}
